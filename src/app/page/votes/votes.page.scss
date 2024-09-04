@@ -1,0 +1,36 @@
+ion-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #45BBFF;
+    margin: 0;
+    text-align: center;
+  }
+
+  img {
+    height: 200px;
+  }
+  
+  .podium-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .podium-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 180px; // Aumenta el ancho para hacer los elementos más largos
+    height: 100px; // Ajusta la altura según sea necesario
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .podium-number {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  
+  

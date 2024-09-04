@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "question": "Does the teacher demonstrate mastery of the course content?"
+    },
+    {
+      "id": 2,
+      "question": "Does the teacher use effective teaching methods?"
+    },
+    {
+      "id": 3,
+      "question": "Does the teacher provide constructive feedback to students?"
+    },
+    {
+        "id": 4,
+        "question": "Does the teacher foster an inclusive and respectful classroom environment?"
+    }
+  ]
+  

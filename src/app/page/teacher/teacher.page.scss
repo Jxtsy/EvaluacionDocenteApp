@@ -1,0 +1,95 @@
+ion-title {
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente del título */
+    font-weight: bold; /* Hace que el título sea más audaz */
+    font-size: 25px;
+    color: #45BBFF;
+    margin: 0;
+    text-align: center;
+}
+
+ion-toolbar {
+    --ion-toolbar-background: transparent; /* Hace que el fondo del toolbar sea transparente */
+    --border-width: 0; /* Elimina el borde del toolbar */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido del toolbar */
+    align-items: center; 
+}
+
+ion-modal {
+    --height: 50%; /* Establece la altura del modal al 50% de la pantalla */
+    --border-radius: 20px;
+  }
+
+body {
+    background-color: white;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 -10px; /* Añadimos un margen negativo para compensar el margen interno de las tarjetas */
+}
+
+ion-card {
+    width: 100%; /* Cambiamos el ancho al 100% para ocupar una tarjeta por fila */
+    height: 120px;
+    max-height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    margin: 10px; /* Añadimos un margen interno para separar las tarjetas */
+    display: flex; /* Convertimos la tarjeta en un contenedor flex */
+}
+
+.image-column {
+    flex: 0 0 auto;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.text-column {
+    flex: 1; /* La columna de texto debe ocupar todo el espacio restante */
+}
+
+.icon-column {
+    background-color: #45BBFF;
+    flex: 0 0 auto;
+    width: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.icon-column ion-icon {
+    color: white; /* Establecemos el color del icono en blanco */
+}
+
+ion-card img {
+    width: 90px; /* Ajustamos el tamaño de la imagen */
+    height: 90px; /* Ajustamos el tamaño de la imagen */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+ion-card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ion-card-subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+ion-button.btnEvaluar {
+    --background: #45BBFF; 
+    --color: white; 
+}

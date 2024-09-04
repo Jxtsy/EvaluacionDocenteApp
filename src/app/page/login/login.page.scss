@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.ios .container {
+  height: 100% !important;
+}
+
+.background-opts {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000pt rgba(0, 0, 0, 0.3);
+  --background: transparent;
+}
+
+ion-header ion-toolbar {
+  --background: transparent;
+}
+
+h1.title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--ion-color-dark);
+  margin-bottom: 8px;
+}
+
+ion-text {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.action-button {
+  --border-radius: 8px;
+  --box-shadow: none !important;
+  min-height: 48px;
+  box-shadow: none !important;
+
+  span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: initial;
+  }
+}
+
+.white {
+  background: #ffffff;
+  border-radius: 16px 16px 0 0;
+  position: absolute;
+  bottom: 0;
+}
+
+ion-grid {
+  width: 100%;
+}
+
+ion-item {
+  --inner-padding-end: 0 !important;
+  min-height: 104px;
+}
+
+ion-input {
+  --background: #f9f9f9;
+  border-radius: 10px;
+  --box-shadow: none;
+  --placeholder-color: cvar(--ion-color-medium);
+  padding: 2px 10px !important;
+  font-size: 14px;
+}
+
+.input-label {
+  font-weight: 600;
+  color: #151522;
+  margin-bottom: 16px;
+}
+
+.caption {
+  color: #151522;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.errors-container {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ion-color-danger);
+  margin-top: 4px;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ion-button {
+  --background: #45BBFF;
+  --background-hover: ##45BBFF;
+  --background-activated: ##45BBFF;
+  --background-focused: #45BBFF;
+
+  --color: white;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}

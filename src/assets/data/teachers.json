@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "first_name": "Gypsy",
+    "last_name": "Robertis",
+    "email": "grobertis0@state.tx.us",
+    "subject": "Mathematics",
+    "urlImage": "https://plus.unsplash.com/premium_photo-1688891564708-9b2247085923?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww",
+    "phone": "+1 (555) 123-4567",
+    "office_location": "Room 101",
+    "years_of_experience": 10,
+    "degree": "Ph.D. in Mathematics",
+    "schedules" : ["08:00 a 10:00", "11:00 a 01:00"]
+  },
+  {
+    "id": 2,
+    "first_name": "Lara",
+    "last_name": "Cavan",
+    "email": "lcavan1@networkadvertising.org",
+    "subject": "History",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYJuTv7kb6nmJ3v0v5_Mm1YIwBzmKWKtnk8Qlg2wFZw&s",
+    "phone": "+1 (555) 234-5678",
+    "office_location": "Room 202",
+    "years_of_experience": 8,
+    "degree": "M.A. in History",
+    "schedules" : ["08:00 a 09:00", "10:30 a 01:30"]
+  },
+  {
+    "id": 3,
+    "first_name": "Thayne",
+    "last_name": "Stemp",
+    "email": "tstemp2@pagesperso-orange.fr",
+    "subject": "Geography",
+    "urlImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww",
+    "phone": "+1 (555) 345-6789",
+    "office_location": "Room 303",
+    "years_of_experience": 6,
+    "degree": "B.A. in Geography",
+    "schedules" : ["07:00 a 09:00", "11:00 a 12:00"]
+  },
+  {
+    "id": 4,
+    "first_name": "Ginger",
+    "last_name": "Vassie",
+    "email": "gvassie3@bluehost.com",
+    "subject": "English Language Arts",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2UjtHSikRGKCEpvuovlAtpwng_FkCJAW24ha-FLQNg&s",
+    "phone": "+1 (555) 456-7890",
+    "office_location": "Room 404",
+    "years_of_experience": 12,
+    "degree": "Ph.D. in English Literature",
+    "schedules" : ["08:00 a 09:30", "11:30 a 01:30"]
+  },
+  {
+    "id": 5,
+    "first_name": "Leodora",
+    "last_name": "Eglington",
+    "email": "leglington4@cbslocal.com",
+    "subject": "Physical Education",
+    "urlImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww",
+    "phone": "+1 (555) 567-8901",
+    "office_location": "Gymnasium",
+    "years_of_experience": 15,
+    "degree": "B.S. in Physical Education",
+    "schedules" : ["08:00 a 09:40", "12:00 a 01:00"]
+  }
+]

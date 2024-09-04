@@ -1,0 +1,87 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Podium</ion-title>
+    <ion-button slot="end" fill="clear" (click)="logOut()">
+      <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <!-- Primer lugar -->
+    <ion-row>
+      <ion-col size="12" size-sm="6">
+        <ion-card> <!-- Tarjeta menos larga -->
+          <ion-card-header>
+            <ion-grid>
+              <ion-row>
+                <ion-col size="8">
+                  <ion-avatar>
+                    <img [src]="firstPlace.photo" style="max-width: 120%; max-height: 120%;" />
+                  </ion-avatar>
+                </ion-col>
+                <ion-col>
+                  <ion-img src="./../../../assets/icon/primero.png" style="max-width: 80%; max-height: 80%;"></ion-img>
+                  Score: {{firstPlace.score}}
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-card-subtitle>Primer Lugar</ion-card-subtitle>
+            <ion-card-title style="color: #45BBFF;">{{firstPlace.name}}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <!-- Segundo y Tercer lugar -->
+    <ion-row class="lower-row">
+      <ion-col size="12" size-sm="6">
+        <ion-card> <!-- Tarjeta menos larga -->
+          <ion-card-header>
+            <ion-grid>
+              <ion-row>
+                <ion-col size="8">
+                  <ion-avatar>
+                    <img [src]="secondPlace.photo" style="max-width: 120%; max-height: 120%;" />
+                  </ion-avatar>
+                </ion-col>
+                <ion-col>
+                  <ion-img src="./../../../assets/icon/segundo.png" style="max-width: 80%; max-height: 80%;"></ion-img>
+                  Score: {{secondPlace.score}}
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-card-subtitle>Segundo Lugar</ion-card-subtitle>
+            <ion-card-title style="color: #45BBFF;">{{secondPlace.name}}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+        <ion-card> <!-- Tarjeta menos larga -->
+          <ion-card-header>
+            <ion-grid>
+              <ion-row>
+                <ion-col size="8">
+                  <ion-avatar>
+                    <img [src]="thirdPlace.photo" style="max-width: 120%; max-height: 120%;" />
+                  </ion-avatar>
+                </ion-col>
+                <ion-col>
+                  <ion-img src="./../../../assets/icon/tercero.png" style="max-width: 80%; max-height: 80%;"></ion-img>
+                  Score: {{thirdPlace.score}}
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-card-subtitle>Tercer Lugar</ion-card-subtitle>
+            <ion-card-title style="color: #45BBFF;">{{thirdPlace.name}}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

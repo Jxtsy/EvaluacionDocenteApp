@@ -1,0 +1,52 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <ion-grid
+      class="ion-padding-horizontal background-opts"
+      [ngStyle]="background">
+    </ion-grid>
+    <ion-grid class="white">
+      <ion-row class="ion-padding-horizontal">
+        <ion-col size="9" class="ion-padding-vertical">
+          <h1 class="title ion-no-padding ion-no-margin">Sign In</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-padding-horizontal">
+        <ion-col class="">
+          <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+            <ion-item lines="none" class="ion-no-padding">
+              <ion-label class="input-label" position="stacked"
+                >Username</ion-label
+              >
+              <ion-input
+                type="text"
+                formControlName="email"
+                placeholder="Type your username"
+                [ngModel]="email"
+              ></ion-input>
+            </ion-item>
+            <ion-item lines="none" class="ion-no-padding">
+              <ion-label class="input-label" position="stacked"
+                >Password</ion-label
+              >
+              <ion-input
+                type="password"
+                formControlName="password"
+                placeholder="Type your password"
+                [ngModel]="pass"
+              ></ion-input>
+            </ion-item>
+            <div class="ion-padding-vertical">
+              <ion-button
+                class="action-button gradient-button"
+                expand="block"
+                fill="solid"
+                type="submit">
+                <span>Sign In</span>
+              </ion-button>
+            </div>
+          </form>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
